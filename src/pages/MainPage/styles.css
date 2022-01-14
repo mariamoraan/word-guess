@@ -1,0 +1,33 @@
+#main-page{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#main-page nav{
+    width: 100%;
+    margin: 16px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-page nav a{
+    color: var(--grey);
+}
+#main-page nav h1{
+    margin-left: 16px;
+}
+.main-page-matrix{
+    width: 90%;
+}
+.main-page-buttons{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-page-buttons > * {
+    margin: 0 16px;
+}

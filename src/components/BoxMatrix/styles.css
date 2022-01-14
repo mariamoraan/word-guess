@@ -1,0 +1,26 @@
+.box{
+    margin: 4px;
+    padding: 12px;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.default{
+    border: 1px solid var(--grey);
+}
+.grey{
+    background: var(--grey);
+    color: var(--white);
+}
+.yellow{
+    background: var(--yellow);
+    color: var(--white);
+}
+.green{
+    background: var(--green);
+    color: var(--white);
+}

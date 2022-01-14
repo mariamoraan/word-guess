@@ -1,0 +1,26 @@
+.help-page{
+    padding: 16px;
+    min-height: calc(100vh - 32px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.help-page > h1,
+.help-page > h2{
+    margin: 1rem 0;
+}
+.help-page > p{
+    margin: 1rem 0;
+}
+.help-page > a{
+    padding: 1ch 3ch;
+    margin: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 8px;
+    background: var(--green);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+}

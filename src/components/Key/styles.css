@@ -1,0 +1,19 @@
+.key{
+    padding: 12px 4px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background: var(--light-grey);
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+    transition: 500ms ease-in-out;
+}
+.green{
+    background: var(--green);
+}
+.grey{
+    background: var(--grey);
+}
